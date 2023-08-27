@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="537cf13c-6c1d-47e4-96f2-92f4a3a8a1e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/controllers/EventsControllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/events.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/models/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/repositories/CrudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/repositories/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/repositories/impl/EventsRepositoryFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/repositories/impl/EventsRepositoryListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/services/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/services/impl/EventsServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2UZi5dIOkn9kPgLJVMhVrvsRHKz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Education/Backend/Lesson2/homeWork/Task_02/SimpleApp"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Education\Backend\Lesson2\homeWork\SimpleApp\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="events.services.impl" />
+      <recent name="events.repositories.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EventsRepositoryFileImplTest">
+    <configuration name="EventsRepositoryFileImplTest$Save.writes_correct_line_to_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="events.repositories.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="events.repositories.impl.EventsRepositoryFileImplTest" />
+      <option name="MAIN_CLASS_NAME" value="events.repositories.impl.EventsRepositoryFileImplTest$Save" />
+      <option name="METHOD_NAME" value="writes_correct_line_to_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventsRepositoryFileImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="events.repositories.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="events.repositories.impl" />
+      <option name="MAIN_CLASS_NAME" value="events.repositories.impl.EventsRepositoryFileImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventsServiceImplTest$AddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="events.services.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="events.services.impl.EventsServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="events.services.impl.EventsServiceImplTest$AddUser" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventsServiceImplTest$AddUser.on_existed_event_throws_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="events.services.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="events.services.impl.EventsServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="events.services.impl.EventsServiceImplTest$AddUser" />
+      <option name="METHOD_NAME" value="on_existed_event_throws_exception" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventsServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="events.services.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="events.services.impl" />
+      <option name="MAIN_CLASS_NAME" value="events.services.impl.EventsServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EventsRepositoryFileImplTest" />
+        <item itemvalue="JUnit.EventsServiceImplTest" />
+        <item itemvalue="JUnit.EventsServiceImplTest$AddUser.on_existed_event_throws_exception" />
+        <item itemvalue="JUnit.EventsServiceImplTest$AddUser" />
+        <item itemvalue="JUnit.EventsRepositoryFileImplTest$Save.writes_correct_line_to_file" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="537cf13c-6c1d-47e4-96f2-92f4a3a8a1e9" name="Changes" comment="" />
+      <created>1693153322174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693153322174</updated>
+    </task>
+    <servers />
+  </component>
+</project>
