@@ -5,21 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Добавить событие</title>
+    <title>Добавить слово</title>
 </head>
 <body>
-<div>
-
-<table>
-    <tr>
-        <th>Событие</th>
-        <th>Описание</th>
-    </tr>
-<#list eventList as event>
-    <li>${event}</li>
-</#list>
-</table>
-</div>
+<ul>
+    <#list eventsList as event>
+        <li>${event}</li>
+    </#list>
+</ul>
 </body>
 </html>
-

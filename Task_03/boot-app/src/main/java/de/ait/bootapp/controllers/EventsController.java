@@ -22,17 +22,19 @@ public class EventsController {
         this.eventService = eventService;
     }
 
-    @PostMapping("/event")
+    private List<Event> events = new ArrayList<>();
+
+    @PostMapping("/events")
     public String addEvent(@RequestParam("nameEvent") String event,
                           @RequestParam("title") String title) {
-        eventService.addEvent(event,title);
+        events.add(new Event(event,title));
         return "redirect:/success_add_event.html";
     }
 
     @GetMapping("/events")
     public String getEventsPage(Model model) {
-        List<Event> events = eventService.getAllEvent();
-        model.addAttribute("eventList", events);
+
+        model.addAttribute("eventsList", events);
         return "events_page";
     }
 }

@@ -16,5 +16,11 @@ public class Event {
         return title;
     }
 
-
+    @Override
+    public String toString() {
+        return "Event{" +
+                "eventName='" + eventName + '\'' +
+                ", title='" + title + '\'' +
+                '}';
+    }
 }
