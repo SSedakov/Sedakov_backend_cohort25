@@ -8,10 +8,20 @@
     <title>Добавить слово</title>
 </head>
 <body>
-<ul>
+<div>
+    <table>
+        <tr>
+            <th>Событие</th>
+            <th>Описание</th>
+        </tr>
     <#list eventsList as event>
-        <li>${event}</li>
+        <tr>
+            <td>${event.getEventName()}</td>
+            <td>${event.getTitle()}</td>
+        </tr>
     </#list>
-</ul>
+
+    </table>
+</div>
 </body>
 </html>
