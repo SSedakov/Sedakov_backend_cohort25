@@ -1,0 +1,18 @@
+### Получение событий
+
+GET localhost:8080/events
+
+### Добавление события
+
+POST localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "coming soon",
+  "eventName": "др"
+
+}
+
+### Получение события по айди
+
+GET localhost:8080/event/5
