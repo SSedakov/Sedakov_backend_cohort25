@@ -1,0 +1,48 @@
+### Получение событий
+
+GET localhost:8080/events
+
+### Добавление события
+
+POST localhost:8080/api/events/events
+Content-Type: application/json
+
+{
+  "title": "coming soon",
+  "eventName": "День рождения"
+
+}
+
+### Получение события по айди
+
+GET localhost:8080/api/events/event/5
+
+### Добавление участника
+
+POST localhost:8080/api/events/register
+Content-Type: application/json
+{
+"familyName":"Sedakov",
+"name":"Sergey"
+}
+
+### Добавление существующего участника в мероприятие
+
+POST localhost:8080/api/events/1/participant
+Content-Type: application/json
+
+{
+  "participantId": 1
+}
+
+### Получение всех участников события
+GET localhost:8080/api/events/1/participant
+
+
+### Обновление события
+PUT localhost:8080/api/events/1
+Content-Type: application/json
+{
+"eventName": "happy birthday wife",
+  "title": "in swimming pool"
+}
